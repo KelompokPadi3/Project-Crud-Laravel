@@ -7,7 +7,7 @@
     <div class="container mx-auto max-w-xl shadow py-4 px-10">
         <a href="{{ route('home') }}" class="px-5 py-2 bg-red-500 rounded-md text-white text-lg shadow-md">Go Back</a>
         <div class="my-3">
-            <h1 class="text-center text-3xl font-bold">Update Product</h1>
+            <h1 class="text-center text-3xl font-bold">Update Mahasiswa</h1>
             <form action="" method="POST">
                 @csrf
                 <div class="my-2">
@@ -72,7 +72,7 @@
                     <span class="text-red-500">{{$message}}</span>
                     @enderror
                 </div>
-                <button class="px-5 py-1 bg-emerald-500 rounded-md text-black text-lg shadow-md">Update</button>
+                <button style="background-color: #1b1464" class="px-5 py-2 mt-2 rounded-md text-white w-full text-lg shadow-md">Update</button>
         </div>
     </div>
 </div>
